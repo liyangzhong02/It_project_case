@@ -14,7 +14,7 @@ import java.util.Objects;
  * @author: marRE
  *
  */
-
+@Data
 public class SysMovie implements Serializable{
 
     private static  final long serialVersionUID = 1L;
@@ -30,6 +30,7 @@ public class SysMovie implements Serializable{
     //海报图片
     private String moviePoster;
 
+    //地区
     private String movieArea;
 
     //电影票房

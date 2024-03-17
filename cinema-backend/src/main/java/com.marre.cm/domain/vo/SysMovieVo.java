@@ -20,6 +20,7 @@ public class SysMovieVo implements Serializable {
 
     private String movieArea;
 
+    //电影类型
     private Long movieCategoryId;
 
     private Date startDate;
